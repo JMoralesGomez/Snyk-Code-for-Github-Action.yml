@@ -10,7 +10,8 @@ jobs:
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         with:
-          command: code test
+          #Especifica que sea codigo
+          command: code test 
          
         continue-on-error: false   
           
