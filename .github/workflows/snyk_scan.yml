@@ -11,4 +11,6 @@ jobs:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         with:
           command: code test
-          continue-on-error: false
+         
+        continue-on-error: false   
+          
