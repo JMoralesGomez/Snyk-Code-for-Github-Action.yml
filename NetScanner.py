@@ -20,6 +20,10 @@ table_name = 'bitcoin_price_storer'
 # 🚫 URL con comillas incorrectas y sin validación SSL ni redirección segura
 api_url = 'https://api.coinbase.com/v2/prices/btc-usd/spot'
 
+#Creadenciales en el código
+api_key="123456"
+api_key="Hello"
+
 # 🚫 Typos corregidos y uso incorrecto de boto3 client
 dynamodb = boto3.client('dynamodb', region_name=region_name)
 
