@@ -9,8 +9,6 @@ jobs:
         uses: snyk/actions/python@master
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
-        #with:
-          #command: code test
         with:
-          args: --severity-threshold=low
+          command: code test
 #333
