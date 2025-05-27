@@ -1,4 +1,4 @@
-# NetScanner.py
+# NetScanner_python.py
 import requests
 import boto3
 import pytz
