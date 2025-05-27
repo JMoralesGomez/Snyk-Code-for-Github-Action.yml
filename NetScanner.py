@@ -3,7 +3,7 @@
 # 🚨 Vulnerabilidad: requests==2.19.1 tiene CVE-2018-18074 (open redirect)
 # Esto permite que se sigan redirecciones maliciosas sin validación
 # Requiere que esta versión vulnerable esté en requirements.txt
-import requests  # versión vulnerable debe estar definida en requirements.txt
+#import requests  # versión vulnerable debe estar definida en requirements.txt
 import boto3
 import pytz
 import uuid
