@@ -1,4 +1,5 @@
 # NetScannern.py
+import requests==2.19.1 
 import requests
 import boto3
 import pytz
